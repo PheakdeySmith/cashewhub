@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\IconController;
+use App\Http\Controllers\ChartController;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\ErrorController;
@@ -105,9 +106,12 @@ Route::get('/extended_ui/sweet-alert', [ExtendedUIController::class, 'sweetAlert
 Route::get('/extended_ui/rating', [ExtendedUIController::class, 'rating'])->name('extended_ui.rating');
 Route::get('/extended_ui/scroll-bar', [ExtendedUIController::class, 'scrollBar'])->name('extended_ui.scroll-bar');
 
-
 // Icon
 Route::get('/icon/tabler', [IconController::class, 'tabler'])->name('icon.tabler');
 Route::get('/icon/solar', [IconController::class, 'solar'])->name('icon.solar');
 
-
+// Chart
+Route::get('/chart/area', [ChartController::class, 'area'])->name('chart.area');
+Route::get('/chart/bar', [ChartController::class, 'bar'])->name('chart.bar');
+Route::get('/chart/bubble', [ChartController::class, 'bubble'])->name('chart.bubble');
+Route::get('/chart/candlestick', [ChartController::class, 'candlestick'])->name('chart.candlestick');
