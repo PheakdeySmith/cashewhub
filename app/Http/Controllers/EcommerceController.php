@@ -23,7 +23,7 @@ class EcommerceController extends Controller
 
     public function create()
     {
-        return view('backends.dashboard.ecommerce.create');
+        return view('backends.dashboard.ecommerce.add_product');
     }
 
     public function category()
