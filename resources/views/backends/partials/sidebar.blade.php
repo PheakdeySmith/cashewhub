@@ -9,7 +9,8 @@
 
         <span class="logo-dark">
             <span class="logo-lg"><img src="{{ asset('assets') }}/images/logo-dark.png" alt="dark logo"></span>
-            <span class="logo-sm text-center"><img src="{{ asset('assets') }}/images/logo-sm.png" alt="small logo"></span>
+            <span class="logo-sm text-center"><img src="{{ asset('assets') }}/images/logo-sm.png"
+                    alt="small logo"></span>
         </span>
     </a>
 
@@ -24,7 +25,8 @@
     </button>
 
     <div data-simplebar="init" class="simplebar-scrollable-y">
-        <div class="simplebar-content-wrapper active" tabindex="0" role="region" aria-label="scrollable content" style="height: 100%;">
+        <div class="simplebar-content-wrapper active" tabindex="0" role="region" aria-label="scrollable content"
+            style="height: 100%;">
             <div class="simplebar-content">
 
                 <!--- Sidenav Menu -->
@@ -69,7 +71,8 @@
                     </li>
 
                     <li class="side-nav-item">
-                        <a data-bs-toggle="collapse" href="#sidebarEcommerce" aria-expanded="false" aria-controls="sidebarEcommerce" class="side-nav-link">
+                        <a data-bs-toggle="collapse" href="#sidebarEcommerce" aria-expanded="false"
+                            aria-controls="sidebarEcommerce" class="side-nav-link">
                             <span class="menu-icon"><i class="ti ti-basket-filled"></i></span>
                             <span class="menu-text"> Ecommerce </span>
                             <span class="menu-arrow"></span>
@@ -126,7 +129,8 @@
                     </li>
 
                     <li class="side-nav-item">
-                        <a data-bs-toggle="collapse" href="#sidebarInvoice" aria-expanded="false" aria-controls="sidebarInvoice" class="side-nav-link">
+                        <a data-bs-toggle="collapse" href="#sidebarInvoice" aria-expanded="false"
+                            aria-controls="sidebarInvoice" class="side-nav-link">
                             <span class="menu-icon"><i class="ti ti-file-invoice"></i></span>
                             <span class="menu-text"> Invoice</span>
                             <span class="menu-arrow"></span>
@@ -153,7 +157,8 @@
                     </li>
 
                     <li class="side-nav-item">
-                        <a data-bs-toggle="collapse" href="#sidebarPages" aria-expanded="false" aria-controls="sidebarPages" class="side-nav-link">
+                        <a data-bs-toggle="collapse" href="#sidebarPages" aria-expanded="false"
+                            aria-controls="sidebarPages" class="side-nav-link">
                             <span class="menu-icon"><i class="ti ti-files"></i></span>
                             <span class="menu-text"> Pages </span>
                             <span class="menu-arrow"></span>
@@ -200,7 +205,8 @@
                     </li>
 
                     <li class="side-nav-item">
-                        <a data-bs-toggle="collapse" href="#sidebarPagesAuth" aria-expanded="false" aria-controls="sidebarPagesAuth" class="side-nav-link">
+                        <a data-bs-toggle="collapse" href="#sidebarPagesAuth" aria-expanded="false"
+                            aria-controls="sidebarPagesAuth" class="side-nav-link">
                             <span class="menu-icon"><i class="ti ti-lock-filled"></i></span>
                             <span class="menu-text"> Auth Pages </span>
                             <span class="menu-arrow"></span>
@@ -262,7 +268,8 @@
                     </li>
 
                     <li class="side-nav-item">
-                        <a data-bs-toggle="collapse" href="#sidebarPagesError" aria-expanded="false" aria-controls="sidebarPagesError" class="side-nav-link">
+                        <a data-bs-toggle="collapse" href="#sidebarPagesError" aria-expanded="false"
+                            aria-controls="sidebarPagesError" class="side-nav-link">
                             <span class="menu-icon"><i class="ti ti-server-2"></i></span>
                             <span class="menu-text"> Error Pages </span>
                             <span class="menu-arrow"></span>
@@ -326,146 +333,201 @@
                     <li class="side-nav-title mt-2">Components</li>
 
                     <li class="side-nav-item">
-                        <a data-bs-toggle="collapse" href="#sidebarComponents" aria-expanded="false" aria-controls="sidebarComponents" class="side-nav-link">
-                            <span class="menu-icon"><i class="ti ti-layout"></i></span>
-                            <span class="menu-text"> Components </span>
+                        <a data-bs-toggle="collapse" href="#sidebarComponents" aria-expanded="false"
+                            aria-controls="sidebarComponents" class="side-nav-link">
+                            <span class="menu-icon"><i class="ti ti-brightness-filled"></i></span>
+                            <span class="menu-text"> Base UI </span>
                             <span class="menu-arrow"></span>
                         </a>
                         <div class="collapse" id="sidebarComponents">
                             <ul class="sub-menu">
                                 <li class="side-nav-item">
-                                    <a href="{{ route('component.accordion') }}" class="side-nav-link">
+                                    <a href="{{ route('base_ui.accordion') }}" class="side-nav-link">
                                         <span class="menu-text">Accordion</span>
                                     </a>
                                 </li>
                                 <li class="side-nav-item">
-                                    <a href="{{ route('component.alert') }}" class="side-nav-link">
+                                    <a href="{{ route('base_ui.alert') }}" class="side-nav-link">
                                         <span class="menu-text">Alert</span>
                                     </a>
                                 </li>
                                 <li class="side-nav-item">
-                                    <a href="{{ route('component.avatar') }}" class="side-nav-link">
+                                    <a href="{{ route('base_ui.avatar') }}" class="side-nav-link">
                                         <span class="menu-text">Avatar</span>
                                     </a>
                                 </li>
                                 <li class="side-nav-item">
-                                    <a href="{{ route('component.badge') }}" class="side-nav-link">
+                                    <a href="{{ route('base_ui.badge') }}" class="side-nav-link">
                                         <span class="menu-text">Badge</span>
                                     </a>
                                 </li>
                                 <li class="side-nav-item">
-                                    <a href="{{ route('component.breadcrumb') }}" class="side-nav-link">
+                                    <a href="{{ route('base_ui.breadcrumb') }}" class="side-nav-link">
                                         <span class="menu-text">Breadcrumb</span>
                                     </a>
                                 </li>
                                 <li class="side-nav-item">
-                                    <a href="{{ route('component.button') }}" class="side-nav-link">
+                                    <a href="{{ route('base_ui.button') }}" class="side-nav-link">
                                         <span class="menu-text">Button</span>
                                     </a>
                                 </li>
                                 <li class="side-nav-item">
-                                    <a href="{{ route('component.card') }}" class="side-nav-link">
+                                    <a href="{{ route('base_ui.card') }}" class="side-nav-link">
                                         <span class="menu-text">Card</span>
                                     </a>
                                 </li>
                                 <li class="side-nav-item">
-                                    <a href="{{ route('component.carousel') }}" class="side-nav-link">
+                                    <a href="{{ route('base_ui.carousel') }}" class="side-nav-link">
                                         <span class="menu-text">Carousel</span>
                                     </a>
                                 </li>
                                 <li class="side-nav-item">
-                                    <a href="{{ route('component.collapse') }}" class="side-nav-link">
+                                    <a href="{{ route('base_ui.collapse') }}" class="side-nav-link">
                                         <span class="menu-text">Collapse</span>
                                     </a>
                                 </li>
                                 <li class="side-nav-item">
-                                    <a href="{{ route('component.dropdown') }}" class="side-nav-link">
+                                    <a href="{{ route('base_ui.dropdown') }}" class="side-nav-link">
                                         <span class="menu-text">Dropdown</span>
                                     </a>
                                 </li>
                                 <li class="side-nav-item">
-                                    <a href="{{ route('component.ratio') }}" class="side-nav-link">
+                                    <a href="{{ route('base_ui.ratio') }}" class="side-nav-link">
                                         <span class="menu-text">Ratio</span>
                                     </a>
                                 </li>
                                 <li class="side-nav-item">
-                                    <a href="{{ route('component.grid') }}" class="side-nav-link">
+                                    <a href="{{ route('base_ui.grid') }}" class="side-nav-link">
                                         <span class="menu-text">Grid</span>
                                     </a>
                                 </li>
                                 <li class="side-nav-item">
-                                    <a href="{{ route('component.link') }}" class="side-nav-link">
+                                    <a href="{{ route('base_ui.link') }}" class="side-nav-link">
                                         <span class="menu-text">Link</span>
                                     </a>
                                 </li>
                                 <li class="side-nav-item">
-                                    <a href="{{ route('component.list_group') }}" class="side-nav-link">
+                                    <a href="{{ route('base_ui.list_group') }}" class="side-nav-link">
                                         <span class="menu-text">List Group</span>
                                     </a>
                                 </li>
                                 <li class="side-nav-item">
-                                    <a href="{{ route('component.modal') }}" class="side-nav-link">
+                                    <a href="{{ route('base_ui.modal') }}" class="side-nav-link">
                                         <span class="menu-text">Modal</span>
                                     </a>
                                 </li>
                                 <li class="side-nav-item">
-                                    <a href="{{ route('component.notification') }}" class="side-nav-link">
+                                    <a href="{{ route('base_ui.notification') }}" class="side-nav-link">
                                         <span class="menu-text">Notification</span>
                                     </a>
                                 </li>
                                 <li class="side-nav-item">
-                                    <a href="{{ route('component.offcanvas') }}" class="side-nav-link">
+                                    <a href="{{ route('base_ui.offcanvas') }}" class="side-nav-link">
                                         <span class="menu-text">Offcanvas</span>
                                     </a>
                                 </li>
                                 <li class="side-nav-item">
-                                    <a href="{{ route('component.placeholder') }}" class="side-nav-link">
+                                    <a href="{{ route('base_ui.placeholder') }}" class="side-nav-link">
                                         <span class="menu-text">Placeholder</span>
                                     </a>
                                 </li>
                                 <li class="side-nav-item">
-                                    <a href="{{ route('component.pagination') }}" class="side-nav-link">
+                                    <a href="{{ route('base_ui.pagination') }}" class="side-nav-link">
                                         <span class="menu-text">Pagination</span>
                                     </a>
                                 </li>
                                 <li class="side-nav-item">
-                                    <a href="{{ route('component.popover') }}" class="side-nav-link">
+                                    <a href="{{ route('base_ui.popover') }}" class="side-nav-link">
                                         <span class="menu-text">Popover</span>
                                     </a>
                                 </li>
                                 <li class="side-nav-item">
-                                    <a href="{{ route('component.progress') }}" class="side-nav-link">
+                                    <a href="{{ route('base_ui.progress') }}" class="side-nav-link">
                                         <span class="menu-text">Progress</span>
                                     </a>
                                 </li>
                                 <li class="side-nav-item">
-                                    <a href="{{ route('component.scrollspy') }}" class="side-nav-link">
+                                    <a href="{{ route('base_ui.scrollspy') }}" class="side-nav-link">
                                         <span class="menu-text">Scrollspy</span>
                                     </a>
                                 </li>
                                 <li class="side-nav-item">
-                                    <a href="{{ route('component.spinner') }}" class="side-nav-link">
+                                    <a href="{{ route('base_ui.spinner') }}" class="side-nav-link">
                                         <span class="menu-text">Spinner</span>
                                     </a>
                                 </li>
                                 <li class="side-nav-item">
-                                    <a href="{{ route('component.tab') }}" class="side-nav-link">
+                                    <a href="{{ route('base_ui.tab') }}" class="side-nav-link">
                                         <span class="menu-text">Tab</span>
                                     </a>
                                 </li>
                                 <li class="side-nav-item">
-                                    <a href="{{ route('component.tooltip') }}" class="side-nav-link">
+                                    <a href="{{ route('base_ui.tooltip') }}" class="side-nav-link">
                                         <span class="menu-text">Tooltip</span>
                                     </a>
                                 </li>
                                 <li class="side-nav-item">
-                                    <a href="{{ route('component.typography') }}" class="side-nav-link">
+                                    <a href="{{ route('base_ui.typography') }}" class="side-nav-link">
                                         <span class="menu-text">Typography</span>
                                     </a>
                                 </li>
                                 <li class="side-nav-item">
-                                    <a href="{{ route('component.utilities') }}" class="side-nav-link">
+                                    <a href="{{ route('base_ui.utilities') }}" class="side-nav-link">
                                         <span class="menu-text">Utilities</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="side-nav-item">
+                        <a data-bs-toggle="collapse" href="#sidebarExtendedUI" aria-expanded="false" aria-controls="sidebarExtendedUI" class="side-nav-link">
+                            <span class="menu-icon"><i class="ti ti-alien-filled"></i></span>
+                            <span class="menu-text"> Extended UI </span>
+                            <span class="menu-arrow"></span>
+                        </a>
+                        <div class="collapse" id="sidebarExtendedUI">
+                            <ul class="sub-menu">
+                                <li class="side-nav-item">
+                                    <a href="{{ route('extended_ui.dragula') }}" class="side-nav-link">
+                                        <span class="menu-text">Dragula</span>
+                                    </a>
+                                </li>
+                                <li class="side-nav-item">
+                                    <a href="{{ route('extended_ui.sweetAlert') }}" class="side-nav-link">
+                                        <span class="menu-text">Sweet Alert</span>
+                                    </a>
+                                </li>
+                                <li class="side-nav-item">
+                                    <a href="{{ route('extended_ui.rating') }}" class="side-nav-link">
+                                        <span class="menu-text">Rating</span>
+                                    </a>
+                                </li>
+                                <li class="side-nav-item">
+                                    <a href="{{ route('extended_ui.scroll-bar') }}" class="side-nav-link">
+                                        <span class="menu-text">Scroll Bar</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="side-nav-item">
+                        <a data-bs-toggle="collapse" href="#sidebarIcons" aria-expanded="false" aria-controls="sidebarIcons" class="side-nav-link">
+                            <span class="menu-icon"><i class="ti ti-icons"></i></span>
+                            <span class="menu-text"> Icons </span>
+                            <span class="menu-arrow"></span>
+                        </a>
+                        <div class="collapse" id="sidebarIcons">
+                            <ul class="sub-menu">
+                                <li class="side-nav-item">
+                                    <a href="{{ route('icon.tabler') }}" class="side-nav-link">
+                                        <span class="menu-text">Tabler</span>
+                                    </a>
+                                </li>
+                                <li class="side-nav-item">
+                                    <a href="{{ route('icon.solar') }}" class="side-nav-link">
+                                        <span class="menu-text">Solar</span>
                                     </a>
                                 </li>
                             </ul>

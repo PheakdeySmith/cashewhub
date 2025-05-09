@@ -1,14 +1,16 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\IconController;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\ErrorController;
+use App\Http\Controllers\BaseUIController;
 use App\Http\Controllers\InvoiceController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\EcommerceController;
+use App\Http\Controllers\ExtendedUIController;
 use App\Http\Controllers\AuthenticationController;
-use App\Http\Controllers\ComponentController;
 use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 
 // Dashboard Tabs
@@ -68,31 +70,44 @@ Route::get('/error_503', [ErrorController::class, 'error_503'])->name('error.503
 Route::get('/error_503', [ErrorController::class, 'error_503'])->name('error.503');
 Route::get('/error_404-alt', [ErrorController::class, 'alt_404'])->name('error.404-alt');
 
-// Components
-Route::get('/components/accordion', [ComponentController::class, 'accordion'])->name('component.accordion');
-Route::get('/components/alert', [ComponentController::class, 'alert'])->name('component.alert');
-Route::get('/components/avatar', [ComponentController::class, 'avatar'])->name('component.avatar');
-Route::get('/components/badge', [ComponentController::class, 'badge'])->name('component.badge');
-Route::get('/components/breadcrumb', [ComponentController::class, 'breadcrumb'])->name('component.breadcrumb');
-Route::get('/components/button', [ComponentController::class, 'button'])->name('component.button');
-Route::get('/components/card', [ComponentController::class, 'card'])->name('component.card');
-Route::get('/components/carousel', [ComponentController::class, 'carousel'])->name('component.carousel');
-Route::get('/components/collapse', [ComponentController::class, 'collapse'])->name('component.collapse');
-Route::get('/components/dropdown', [ComponentController::class, 'dropdown'])->name('component.dropdown');
-Route::get('/components/ratio', [ComponentController::class, 'ratio'])->name('component.ratio');
-Route::get('/components/grid', [ComponentController::class, 'grid'])->name('component.grid');
-Route::get('/components/link', [ComponentController::class, 'link'])->name('component.link');
-Route::get('/components/list-group', [ComponentController::class, 'list_group'])->name('component.list_group');
-Route::get('/components/modal', [ComponentController::class, 'modal'])->name('component.modal');
-Route::get('/components/notification', [ComponentController::class, 'notification'])->name('component.notification');
-Route::get('/components/offcanvas', [ComponentController::class, 'offcanvas'])->name('component.offcanvas');
-Route::get('/components/placeholder', [ComponentController::class, 'placeholder'])->name('component.placeholder');
-Route::get('/components/pagination', [ComponentController::class, 'pagination'])->name('component.pagination');
-Route::get('/components/popover', [ComponentController::class, 'popover'])->name('component.popover');
-Route::get('/components/progress', [ComponentController::class, 'progress'])->name('component.progress');
-Route::get('/components/scrollspy', [ComponentController::class, 'scrollspy'])->name('component.scrollspy');
-Route::get('/components/spinner', [ComponentController::class, 'spinner'])->name('component.spinner');
-Route::get('/components/tab', [ComponentController::class, 'tab'])->name('component.tab');
-Route::get('/components/tooltip', [ComponentController::class, 'tooltip'])->name('component.tooltip');
-Route::get('/components/typography', [ComponentController::class, 'typography'])->name('component.typography');
-Route::get('/components/utilities', [ComponentController::class, 'utilities'])->name('component.utilities');
+// Base UI
+Route::get('/base_ui/accordion', [BaseUIController::class, 'accordion'])->name('base_ui.accordion');
+Route::get('/base_ui/alert', [BaseUIController::class, 'alert'])->name('base_ui.alert');
+Route::get('/base_ui/avatar', [BaseUIController::class, 'avatar'])->name('base_ui.avatar');
+Route::get('/base_ui/badge', [BaseUIController::class, 'badge'])->name('base_ui.badge');
+Route::get('/base_ui/breadcrumb', [BaseUIController::class, 'breadcrumb'])->name('base_ui.breadcrumb');
+Route::get('/base_ui/button', [BaseUIController::class, 'button'])->name('base_ui.button');
+Route::get('/base_ui/card', [BaseUIController::class, 'card'])->name('base_ui.card');
+Route::get('/base_ui/carousel', [BaseUIController::class, 'carousel'])->name('base_ui.carousel');
+Route::get('/base_ui/collapse', [BaseUIController::class, 'collapse'])->name('base_ui.collapse');
+Route::get('/base_ui/dropdown', [BaseUIController::class, 'dropdown'])->name('base_ui.dropdown');
+Route::get('/base_ui/ratio', [BaseUIController::class, 'ratio'])->name('base_ui.ratio');
+Route::get('/base_ui/grid', [BaseUIController::class, 'grid'])->name('base_ui.grid');
+Route::get('/base_ui/link', [BaseUIController::class, 'link'])->name('base_ui.link');
+Route::get('/base_ui/list-group', [BaseUIController::class, 'list_group'])->name('base_ui.list_group');
+Route::get('/base_ui/modal', [BaseUIController::class, 'modal'])->name('base_ui.modal');
+Route::get('/base_ui/notification', [BaseUIController::class, 'notification'])->name('base_ui.notification');
+Route::get('/base_ui/offcanvas', [BaseUIController::class, 'offcanvas'])->name('base_ui.offcanvas');
+Route::get('/base_ui/placeholder', [BaseUIController::class, 'placeholder'])->name('base_ui.placeholder');
+Route::get('/base_ui/pagination', [BaseUIController::class, 'pagination'])->name('base_ui.pagination');
+Route::get('/base_ui/popover', [BaseUIController::class, 'popover'])->name('base_ui.popover');
+Route::get('/base_ui/progress', [BaseUIController::class, 'progress'])->name('base_ui.progress');
+Route::get('/base_ui/scrollspy', [BaseUIController::class, 'scrollspy'])->name('base_ui.scrollspy');
+Route::get('/base_ui/spinner', [BaseUIController::class, 'spinner'])->name('base_ui.spinner');
+Route::get('/base_ui/tab', [BaseUIController::class, 'tab'])->name('base_ui.tab');
+Route::get('/base_ui/tooltip', [BaseUIController::class, 'tooltip'])->name('base_ui.tooltip');
+Route::get('/base_ui/typography', [BaseUIController::class, 'typography'])->name('base_ui.typography');
+Route::get('/base_ui/utilities', [BaseUIController::class, 'utilities'])->name('base_ui.utilities');
+
+// Extended UI
+Route::get('/extended_ui/dragula', [ExtendedUIController::class, 'dragula'])->name('extended_ui.dragula');
+Route::get('/extended_ui/sweet-alert', [ExtendedUIController::class, 'sweetAlert'])->name('extended_ui.sweetAlert');
+Route::get('/extended_ui/rating', [ExtendedUIController::class, 'rating'])->name('extended_ui.rating');
+Route::get('/extended_ui/scroll-bar', [ExtendedUIController::class, 'scrollBar'])->name('extended_ui.scroll-bar');
+
+
+// Icon
+Route::get('/icon/tabler', [IconController::class, 'tabler'])->name('icon.tabler');
+Route::get('/icon/solar', [IconController::class, 'solar'])->name('icon.solar');
+
+
