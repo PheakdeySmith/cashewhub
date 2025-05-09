@@ -323,6 +323,155 @@
                         </div>
                     </li>
 
+                    <li class="side-nav-title mt-2">Components</li>
+
+                    <li class="side-nav-item">
+                        <a data-bs-toggle="collapse" href="https://coderthemes.com/boron/layouts/ui-accordions.html#sidebarBaseUI" aria-expanded="false" aria-controls="sidebarBaseUI" class="side-nav-link">
+                            <span class="menu-icon"><i class="ti ti-brightness-filled"></i></span>
+                            <span class="menu-text"> Base UI </span>
+                            <span class="menu-arrow"></span>
+                        </a>
+                        <div class="collapse show" id="sidebarBaseUI">
+                            <ul class="sub-menu">
+                                <li class="side-nav-item">
+                                    <a href="https://coderthemes.com/boron/layouts/ui-accordions.html" class="side-nav-link">
+                                        <span class="menu-text">Accordions</span>
+                                    </a>
+                                </li>
+                                <li class="side-nav-item">
+                                    <a href="https://coderthemes.com/boron/layouts/ui-alerts.html" class="side-nav-link">
+                                        <span class="menu-text">Alerts</span>
+                                    </a>
+                                </li>
+                                <li class="side-nav-item">
+                                    <a href="https://coderthemes.com/boron/layouts/ui-avatars.html" class="side-nav-link">
+                                        <span class="menu-text">Avatars</span>
+                                    </a>
+                                </li>
+                                <li class="side-nav-item">
+                                    <a href="https://coderthemes.com/boron/layouts/ui-badges.html" class="side-nav-link">
+                                        <span class="menu-text">Badges</span>
+                                    </a>
+                                </li>
+                                <li class="side-nav-item">
+                                    <a href="https://coderthemes.com/boron/layouts/ui-breadcrumb.html" class="side-nav-link">
+                                        <span class="menu-text">Breadcrumb</span>
+                                    </a>
+                                </li>
+                                <li class="side-nav-item">
+                                    <a href="https://coderthemes.com/boron/layouts/ui-buttons.html" class="side-nav-link">
+                                        <span class="menu-text">Buttons</span>
+                                    </a>
+                                </li>
+                                <li class="side-nav-item">
+                                    <a href="https://coderthemes.com/boron/layouts/ui-cards.html" class="side-nav-link">
+                                        <span class="menu-text">Cards</span>
+                                    </a>
+                                </li>
+                                <li class="side-nav-item">
+                                    <a href="https://coderthemes.com/boron/layouts/ui-carousel.html" class="side-nav-link">
+                                        <span class="menu-text">Carousel</span>
+                                    </a>
+                                </li>
+                                <li class="side-nav-item">
+                                    <a href="https://coderthemes.com/boron/layouts/ui-collapse.html" class="side-nav-link">
+                                        <span class="menu-text">Collapse</span>
+                                    </a>
+                                </li>
+                                <li class="side-nav-item">
+                                    <a href="https://coderthemes.com/boron/layouts/ui-dropdowns.html" class="side-nav-link">
+                                        <span class="menu-text">Dropdowns</span>
+                                    </a>
+                                </li>
+                                <li class="side-nav-item">
+                                    <a href="https://coderthemes.com/boron/layouts/ui-ratios.html" class="side-nav-link">
+                                        <span class="menu-text">Ratios</span>
+                                    </a>
+                                </li>
+                                <li class="side-nav-item">
+                                    <a href="https://coderthemes.com/boron/layouts/ui-grid.html" class="side-nav-link">
+                                        <span class="menu-text">Grid</span>
+                                    </a>
+                                </li>
+                                <li class="side-nav-item">
+                                    <a href="https://coderthemes.com/boron/layouts/ui-links.html" class="side-nav-link">
+                                        <span class="menu-text">Links</span>
+                                    </a>
+                                </li>
+                                <li class="side-nav-item">
+                                    <a href="https://coderthemes.com/boron/layouts/ui-list-group.html" class="side-nav-link">
+                                        <span class="menu-text">List Group</span>
+                                    </a>
+                                </li>
+                                <li class="side-nav-item">
+                                    <a href="https://coderthemes.com/boron/layouts/ui-modals.html" class="side-nav-link">
+                                        <span class="menu-text">Modals</span>
+                                    </a>
+                                </li>
+                                <li class="side-nav-item">
+                                    <a href="https://coderthemes.com/boron/layouts/ui-notifications.html" class="side-nav-link">
+                                        <span class="menu-text">Notifications</span>
+                                    </a>
+                                </li>
+                                <li class="side-nav-item">
+                                    <a href="https://coderthemes.com/boron/layouts/ui-offcanvas.html" class="side-nav-link">
+                                        <span class="menu-text">Offcanvas</span>
+                                    </a>
+                                </li>
+                                <li class="side-nav-item">
+                                    <a href="https://coderthemes.com/boron/layouts/ui-placeholders.html" class="side-nav-link">
+                                        <span class="menu-text">Placeholders</span>
+                                    </a>
+                                </li>
+                                <li class="side-nav-item">
+                                    <a href="https://coderthemes.com/boron/layouts/ui-pagination.html" class="side-nav-link">
+                                        <span class="menu-text">Pagination</span>
+                                    </a>
+                                </li>
+                                <li class="side-nav-item">
+                                    <a href="https://coderthemes.com/boron/layouts/ui-popovers.html" class="side-nav-link">
+                                        <span class="menu-text">Popovers</span>
+                                    </a>
+                                </li>
+                                <li class="side-nav-item">
+                                    <a href="https://coderthemes.com/boron/layouts/ui-progress.html" class="side-nav-link">
+                                        <span class="menu-text">Progress</span>
+                                    </a>
+                                </li>
+                                <li class="side-nav-item">
+                                    <a href="https://coderthemes.com/boron/layouts/ui-scrollspy.html" class="side-nav-link">
+                                        <span class="menu-text">Scrollspy</span>
+                                    </a>
+                                </li>
+                                <li class="side-nav-item">
+                                    <a href="https://coderthemes.com/boron/layouts/ui-spinners.html" class="side-nav-link">
+                                        <span class="menu-text">Spinners</span>
+                                    </a>
+                                </li>
+                                <li class="side-nav-item">
+                                    <a href="https://coderthemes.com/boron/layouts/ui-tabs.html" class="side-nav-link">
+                                        <span class="menu-text">Tabs</span>
+                                    </a>
+                                </li>
+                                <li class="side-nav-item">
+                                    <a href="https://coderthemes.com/boron/layouts/ui-tooltips.html" class="side-nav-link">
+                                        <span class="menu-text">Tooltips</span>
+                                    </a>
+                                </li>
+                                <li class="side-nav-item">
+                                    <a href="https://coderthemes.com/boron/layouts/ui-typography.html" class="side-nav-link">
+                                        <span class="menu-text">Typography</span>
+                                    </a>
+                                </li>
+                                <li class="side-nav-item">
+                                    <a href="https://coderthemes.com/boron/layouts/ui-utilities.html" class="side-nav-link">
+                                        <span class="menu-text">Utilities</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+
                 </ul>
 
                 <div class="clearfix"></div>

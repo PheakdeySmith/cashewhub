@@ -8,6 +8,7 @@ use App\Http\Controllers\InvoiceController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\EcommerceController;
 use App\Http\Controllers\AuthenticationController;
+use App\Http\Controllers\ComponentController;
 use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 
 // Dashboard Tabs
@@ -66,3 +67,32 @@ Route::get('/error_502', [ErrorController::class, 'error_502'])->name('error.502
 Route::get('/error_503', [ErrorController::class, 'error_503'])->name('error.503');
 Route::get('/error_503', [ErrorController::class, 'error_503'])->name('error.503');
 Route::get('/error_404-alt', [ErrorController::class, 'alt_404'])->name('error.404-alt');
+
+// Components
+Route::get('/components/accordion', [ComponentController::class, 'accordion'])->name('component.accordion');
+Route::get('/components/alert', [ComponentController::class, 'alert'])->name('component.alert');
+Route::get('/components/avatar', [ComponentController::class, 'avatar'])->name('component.avatar');
+Route::get('/components/badge', [ComponentController::class, 'badge'])->name('component.badge');
+Route::get('/components/breadcrumb', [ComponentController::class, 'breadcrumb'])->name('component.breadcrumb');
+Route::get('/components/button', [ComponentController::class, 'button'])->name('component.button');
+Route::get('/components/card', [ComponentController::class, 'card'])->name('component.card');
+Route::get('/components/carousel', [ComponentController::class, 'carousel'])->name('component.carousel');
+Route::get('/components/collapse', [ComponentController::class, 'collapse'])->name('component.collapse');
+Route::get('/components/dropdown', [ComponentController::class, 'dropdown'])->name('component.dropdown');
+Route::get('/components/ratio', [ComponentController::class, 'ratio'])->name('component.ratio');
+Route::get('/components/grid', [ComponentController::class, 'grid'])->name('component.grid');
+Route::get('/components/link', [ComponentController::class, 'link'])->name('component.link');
+Route::get('/components/list-group', [ComponentController::class, 'list_group'])->name('component.list_group');
+Route::get('/components/modal', [ComponentController::class, 'modal'])->name('component.modal');
+Route::get('/components/notification', [ComponentController::class, 'notification'])->name('component.notification');
+Route::get('/components/offcanvas', [ComponentController::class, 'offcanvas'])->name('component.offcanvas');
+Route::get('/components/placeholder', [ComponentController::class, 'placeholder'])->name('component.placeholder');
+Route::get('/components/pagination', [ComponentController::class, 'pagination'])->name('component.pagination');
+Route::get('/components/popover', [ComponentController::class, 'popover'])->name('component.popover');
+Route::get('/components/progress', [ComponentController::class, 'progress'])->name('component.progress');
+Route::get('/components/scrollspy', [ComponentController::class, 'scrollspy'])->name('component.scrollspy');
+Route::get('/components/spinner', [ComponentController::class, 'spinner'])->name('component.spinner');
+Route::get('/components/tab', [ComponentController::class, 'tab'])->name('component.tab');
+Route::get('/components/tooltip', [ComponentController::class, 'tooltip'])->name('component.tooltip');
+Route::get('/components/typography', [ComponentController::class, 'typography'])->name('component.typography');
+Route::get('/components/utilities', [ComponentController::class, 'utilities'])->name('component.utilities');
