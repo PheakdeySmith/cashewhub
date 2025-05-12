@@ -534,6 +534,189 @@
                         </div>
                     </li>
 
+                    <li class="side-nav-item">
+                        <a data-bs-toggle="collapse" href="#sidebarForms" aria-expanded="false" aria-controls="sidebarForms" class="side-nav-link">
+                            <span class="menu-icon"><i class="ti ti-forms"></i></span>
+                            <span class="menu-text"> Forms </span>
+                            <span class="menu-arrow"></span>
+                        </a>
+                        <div class="collapse" id="sidebarForms">
+                            <ul class="sub-menu">
+                                <li class="side-nav-item">
+                                    <a href="{{ route('forms.basic') }}" class="side-nav-link">
+                                        <span class="menu-text">Basic</span>
+                                    </a>
+                                </li>
+                                <li class="side-nav-item">
+                                    <a href="{{ route('forms.inputmask') }}" class="side-nav-link">
+                                        <span class="menu-text">Input Mask</span>
+                                    </a>
+                                </li>
+                                <li class="side-nav-item">
+                                    <a href="{{ route('forms.picker') }}" class="side-nav-link">
+                                        <span class="menu-text">Picker</span>
+                                    </a>
+                                </li>
+                                <li class="side-nav-item">
+                                    <a href="{{ route('forms.select') }}" class="side-nav-link">
+                                        <span class="menu-text">Select</span>
+                                    </a>
+                                </li>
+                                <li class="side-nav-item">
+                                    <a href="{{ route('forms.slider') }}" class="side-nav-link">
+                                        <span class="menu-text">Slider</span>
+                                    </a>
+                                </li>
+                                <li class="side-nav-item">
+                                    <a href="{{ route('forms.validation') }}" class="side-nav-link">
+                                        <span class="menu-text">Validation</span>
+                                    </a>
+                                </li>
+                                <li class="side-nav-item">
+                                    <a href="{{ route('forms.wizard') }}" class="side-nav-link">
+                                        <span class="menu-text">Wizard</span>
+                                    </a>
+                                </li>
+                                <li class="side-nav-item">
+                                    <a href="{{ route('forms.file_upload') }}" class="side-nav-link">
+                                        <span class="menu-text">File Uploads</span>
+                                    </a>
+                                </li>
+                                <li class="side-nav-item">
+                                    <a href="{{ route('forms.editor') }}" class="side-nav-link">
+                                        <span class="menu-text">Editors</span>
+                                    </a>
+                                </li>
+                                <li class="side-nav-item">
+                                    <a href="{{ route('forms.layout') }}" class="side-nav-link">
+                                        <span class="menu-text">Layouts</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="side-nav-item">
+                        <a data-bs-toggle="collapse" href="#sidebarTables" aria-expanded="false" aria-controls="sidebarTables" class="side-nav-link collapsed">
+                            <span class="menu-icon"><i class="ti ti-table-filled"></i></span>
+                            <span class="menu-text"> Tables </span>
+                            <span class="menu-arrow"></span>
+                        </a>
+                        <div class="collapse" id="sidebarTables" style="">
+                            <ul class="sub-menu">
+                                <li class="side-nav-item">
+                                    <a href="{{ route('table.basic') }}" class="side-nav-link">
+                                        <span class="menu-text">Basic Tables</span>
+                                    </a>
+                                </li>
+                                <li class="side-nav-item">
+                                    <a href="{{ route('table.gridjs') }}" class="side-nav-link">
+                                        <span class="menu-text">Gridjs Tables</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="side-nav-title mt-2">
+                        More
+                    </li>
+
+                    {{-- <li class="side-nav-item">
+                        <a data-bs-toggle="collapse" href="#sidebarLayouts" aria-expanded="false" aria-controls="sidebarLayouts" class="side-nav-link collapsed">
+                            <span class="menu-icon"><i class="ti ti-layout-filled"></i></span>
+                            <span class="menu-text"> Layouts </span>
+                            <span class="menu-arrow"></span>
+                        </a>
+                        <div class="collapse" id="sidebarLayouts" style="">
+                            <ul class="sub-menu">
+                                <li class="side-nav-item">
+                                    <a href="layouts-horizontal.html" target="_blank" class="side-nav-link">Horizontal</a>
+                                </li>
+                                <li class="side-nav-item">
+                                    <a href="layouts-full.html" target="_blank" class="side-nav-link">Full View</a>
+                                </li>
+                                <li class="side-nav-item">
+                                    <a href="layouts-fullscreen.html" target="_blank" class="side-nav-link">Fullscreen View</a>
+                                </li>
+                                <li class="side-nav-item">
+                                    <a href="layouts-hover.html" target="_blank" class="side-nav-link">Hover Menu</a>
+                                </li>
+                                <li class="side-nav-item">
+                                    <a href="layouts-compact.html" target="_blank" class="side-nav-link">Compact</a>
+                                </li>
+                                <li class="side-nav-item">
+                                    <a href="layouts-icon-view.html" target="_blank" class="side-nav-link">Icon View</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li> --}}
+
+                    <li class="side-nav-item">
+                        <a data-bs-toggle="collapse" href="#sidebarMultiLevel" aria-expanded="false" aria-controls="sidebarMultiLevel" class="side-nav-link">
+                            <span class="menu-icon"><i class="ti ti-box-multiple-3"></i></span>
+                            <span class="menu-text"> Multi Level </span>
+                            <span class="menu-arrow"></span>
+                        </a>
+                        <div class="collapse" id="sidebarMultiLevel">
+                            <ul class="sub-menu">
+                                <li class="side-nav-item">
+                                    <a data-bs-toggle="collapse" href="#sidebarSecondLevel" aria-expanded="false" aria-controls="sidebarSecondLevel" class="side-nav-link">
+                                        <span class="menu-text"> Second Level </span>
+                                        <span class="menu-arrow"></span>
+                                    </a>
+                                    <div class="collapse" id="sidebarSecondLevel">
+                                        <ul class="sub-menu">
+                                            <li class="side-nav-item">
+                                                <a href="javascript: void(0);" class="side-nav-link">
+                                                    <span class="menu-text">Item 1</span>
+                                                </a>
+                                            </li>
+                                            <li class="side-nav-item">
+                                                <a href="javascript: void(0);" class="side-nav-link">
+                                                    <span class="menu-text">Item 2</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="side-nav-item">
+                                    <a data-bs-toggle="collapse" href="#sidebarThirdLevel" aria-expanded="false" aria-controls="sidebarThirdLevel" class="side-nav-link">
+                                        <span class="menu-text"> Third Level </span>
+                                        <span class="menu-arrow"></span>
+                                    </a>
+                                    <div class="collapse" id="sidebarThirdLevel">
+                                        <ul class="sub-menu">
+                                            <li class="side-nav-item">
+                                                <a href="javascript: void(0);" class="side-nav-link">Item 1</a>
+                                            </li>
+                                            <li class="side-nav-item">
+                                                <a data-bs-toggle="collapse" href="#sidebarFourthLevel" aria-expanded="false" aria-controls="sidebarFourthLevel" class="side-nav-link">
+                                                    <span class="menu-text"> Item 2 </span>
+                                                    <span class="menu-arrow"></span>
+                                                </a>
+                                                <div class="collapse" id="sidebarFourthLevel">
+                                                    <ul class="sub-menu">
+                                                        <li class="side-nav-item">
+                                                            <a href="javascript: void(0);" class="side-nav-link">
+                                                                <span class="menu-text">Item 2.1</span>
+                                                            </a>
+                                                        </li>
+                                                        <li class="side-nav-item">
+                                                            <a href="javascript: void(0);" class="side-nav-link">
+                                                                <span class="menu-text">Item 2.2</span>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+
                 </ul>
 
                 <div class="clearfix"></div>

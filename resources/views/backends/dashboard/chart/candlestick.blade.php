@@ -11,7 +11,7 @@
 @section('content')
 <div class="page-container">
 
-                        
+
     <div class="page-title-head d-flex align-items-sm-center flex-sm-row flex-column gap-2">
         <div class="flex-grow-1">
             <h4 class="fs-18 text-uppercase fw-bold mb-0">Candlestick Charts</h4>
@@ -20,16 +20,16 @@
         <div class="text-end">
             <ol class="breadcrumb m-0 py-0">
                 <li class="breadcrumb-item"><a href="javascript: void(0);">Boron</a></li>
-                
+
                 <li class="breadcrumb-item"><a href="javascript: void(0);">Apex</a></li>
-                
+
                 <li class="breadcrumb-item active">Candlestick Charts</li>
             </ol>
         </div>
     </div>
-    
 
-    
+
+
 
     <div class="row">
         <div class="col-xl-6">
@@ -72,7 +72,7 @@
                     <h4 class="header-title mb-3">Category X-Axis</h4>
                     <div dir="ltr">
                         <div id="x-axis-candlestick" class="apex-charts" data-colors="#6ac75a,#fa5c7c,#ce7e7e" style="min-height: 395px;">
-                            
+
                         </div>
                     </div>
                 </div>
@@ -98,7 +98,7 @@
         <!-- end col-->
     </div>
     <!-- end row-->
-    
+
 
 </div> <!-- container -->
 @endsection

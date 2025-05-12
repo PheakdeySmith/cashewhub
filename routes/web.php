@@ -1,11 +1,13 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\FormController;
 use App\Http\Controllers\IconController;
-use App\Http\Controllers\ChartController;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\ChartController;
 use App\Http\Controllers\ErrorController;
+use App\Http\Controllers\TableController;
 use App\Http\Controllers\BaseUIController;
 use App\Http\Controllers\InvoiceController;
 use App\Http\Controllers\DashboardController;
@@ -115,3 +117,32 @@ Route::get('/chart/area', [ChartController::class, 'area'])->name('chart.area');
 Route::get('/chart/bar', [ChartController::class, 'bar'])->name('chart.bar');
 Route::get('/chart/bubble', [ChartController::class, 'bubble'])->name('chart.bubble');
 Route::get('/chart/candlestick', [ChartController::class, 'candlestick'])->name('chart.candlestick');
+Route::get('/chart/column', [ChartController::class, 'column'])->name('chart.column');
+Route::get('/chart/heatmap', [ChartController::class, 'heatmap'])->name('chart.heatmap');
+Route::get('/chart/line', [ChartController::class, 'line'])->name('chart.line');
+Route::get('/chart/mixed', [ChartController::class, 'mixed'])->name('chart.mixed');
+Route::get('/chart/timeline', [ChartController::class, 'timeline'])->name('chart.timeline');
+Route::get('/chart/boxplot', [ChartController::class, 'boxplot'])->name('chart.boxplot');
+Route::get('/chart/treemap', [ChartController::class, 'treemap'])->name('chart.treemap');
+Route::get('/chart/pie', [ChartController::class, 'pie'])->name('chart.pie');
+Route::get('/chart/radar', [ChartController::class, 'radar'])->name('chart.radar');
+Route::get('/chart/radiabar', [ChartController::class, 'radiabar'])->name('chart.radiabar');
+Route::get('/chart/scatter', [ChartController::class, 'scatter'])->name('chart.scatter');
+Route::get('/chart/polar', [ChartController::class, 'polar'])->name('chart.polar');
+Route::get('/chart/sparklines', [ChartController::class, 'sparklines'])->name('chart.sparklines');
+
+// Forms
+Route::get('/forms/basic', [FormController::class, 'basic'])->name('forms.basic');
+Route::get('/forms/inputmask', [FormController::class, 'inputmask'])->name('forms.inputmask');
+Route::get('/forms/picker', [FormController::class, 'picker'])->name('forms.picker');
+Route::get('/forms/select', [FormController::class, 'select'])->name('forms.select');
+Route::get('/forms/slider', [FormController::class, 'slider'])->name('forms.slider');
+Route::get('/forms/validation', [FormController::class, 'validation'])->name('forms.validation');
+Route::get('/forms/wizard', [FormController::class, 'wizard'])->name('forms.wizard');
+Route::get('/forms/file_upload', [FormController::class, 'file_upload'])->name('forms.file_upload');
+Route::get('/forms/editor', [FormController::class, 'editor'])->name('forms.editor');
+Route::get('/forms/layout', [FormController::class, 'layout'])->name('forms.layout');
+
+// Table
+Route::get('/table/basic', [TableController::class, 'basic'])->name('table.basic');
+Route::get('/table/gridjs', [TableController::class, 'gridjs'])->name('table.gridjs');
